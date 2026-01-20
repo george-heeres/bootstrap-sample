@@ -1,0 +1,13 @@
+Semantic Versioning
+
+5.3.8
+5.4.1
+
+<major>  .  <minor>  .  <release/build>  .  <optional>
+
+Major   - Breaking changes. You can't just drop in new version.
+Minor   - Enhancements. Additions. Non-breaking.
+Release - Packages, bug fixes? Non-breaking
+
+
+24H2.26100.7462

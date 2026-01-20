@@ -1,0 +1,36 @@
+:root {
+  --header-height: 5rem;
+  --header-bg-color: rgb(110, 185, 250);
+  --header-text-color: antiquewhite;
+  --active-bg-color: rgb(118, 155, 187);
+  --active-bg-hover-color: rgb(30, 116, 192);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+}
+
+header {
+  height: var(--header-height);
+  background-color: var(--header-bg-color);
+  /*margin-bottom: 1rem;*/
+  color: var(--header-text-color);
+  padding-top: 1rem;
+}
+
+.list-group-item.active {
+  background-color: var(--active-bg-color);
+  border-color: var(--active-bg-color);
+}
+.btn-primary {
+  background-color: var(--active-bg-color);
+  border-color: var(--active-bg-color);
+}
+.btn-primary:hover {
+  background-color: var(--active-bg-hover-color);
+  border-color: var(--active-bg-hover-color);
+}
